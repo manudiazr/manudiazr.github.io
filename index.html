@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu:400,400i,500,700" rel="stylesheet">
+    <title>Mundial Rusia 2018</title>
+  </head>
+  <body>
+    <section class="marcador">  <!-- formulario de marcadores -->
+      <div class="transparencia">
+        <div class="contenedor">
+          <h1>MUNDIAL RUSIA 2018</h1>
+          <div class="formulario">
+            <form class="" action="send_form_email.php" method="post">
+              <div class="nombre">
+                <label for="nombre">Nombre
+                  <input type="text" name="nombre" value="">
+                </label>
+              </div>
+              <div class="caja">
+                <div class="equipo">
+                  <img src="images/rusia.png" alt="">
+                  <label for="equipo_1"> Rusia
+                    <input type="text" name="equipo_1" value="">
+                  </label>
+                </div>
+                <p>VS</p>
+              <div class="equipo">
+                <img src="images/arabia-saudita.png" alt="">
+                <label for="equipo_2"> A. Saudita
+                  <input type="text" name="equipo_2" value="">
+                </label>
+              </div>
+              </div>
+
+            <input class="enviar"type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

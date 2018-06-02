@@ -1,0 +1,53 @@
+/* *{
+  border: 1px solid red;
+} */
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Russo One', sans-serif; */
+body{
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  font-size: 1.5rem;
+}
+h1{
+  font-family: 'Russo One', sans-serif;
+  margin-top: 0;
+  padding: 40px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.marcador{
+  background-image: url("../images/estadio1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.contenedor{
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+}
+.transparencia{
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(236, 41, 41,0.2),rgba(236, 41, 41,0.8));
+
+}
+form{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enviar{
+  width: 150px;
+}
+.equipo img {
+  width: 300px;
+  display: flex;
+}
+.caja{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
