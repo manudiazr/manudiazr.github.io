@@ -4,6 +4,42 @@
 /* font-family: 'Ubuntu', sans-serif;
 font-family: 'Russo One', sans-serif;
 font-family: 'Parisienne', cursive; */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?tg3ogf');
+  src:  url('../fonts/icomoon.eot?tg3ogf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tg3ogf') format('truetype'),
+    url('../fonts/icomoon.woff?tg3ogf') format('woff'),
+    url('../fonts/icomoon.svg?tg3ogf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-cancel-circle:before {
+  content: "\ea0d";
+
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+
+}
 body{
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
@@ -40,9 +76,25 @@ z-index: 1;
 h1, nav, header ul{
   display: inline-block;
 }
+.active{
+  left: 0;
+}
+.hamburger-button{
+  z-index: 1;
+  color: white;
+  border-radius: 50%;
+  background: rgb(224, 13, 13);
+  position: fixed;
+  font-size: 40px;
+  padding: 9px;
+  top: 6px;
+  left: 9px;
+  display: none;
+}
 .portada {
   background-image: url(../images/moscu.jpg);
   background-size: cover;
+  position: relative;
   width: 100%;
   height: 665px;
   margin-top: 50px;
@@ -52,7 +104,7 @@ h1, nav, header ul{
 }
 .titulo{
 position: absolute;
-top: 50%;
+top: 45%;
 right: 5%;
 text-align: right;
 font-size: 46px;
@@ -294,6 +346,9 @@ margin-left: 10px
   }
 }
 @media screen and (max-width:500px){
+ .hamburger-button{
+   display: block;
+ }
   .cuartos{
     flex-wrap: wrap;
   }
@@ -308,11 +363,14 @@ margin-left: 10px
     margin-top: 0;
   }
 header nav{
-text-align: center;
-position: absolute;
-width: 100%;
-background: rgb(224, 13, 13);
-left: -350px;
+  top: 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(224, 13, 13,.8);
+  left: -100%;
+  padding-top: 72px;
   }
   header ul {
 font-size: 42px;
@@ -326,6 +384,8 @@ border-bottom: 1px solid;
     height: 402px;
   }
   .titulo{
+  position: static;
+  padding-top: 18px;
   font-size: 31px;
   }
   .match{
@@ -333,5 +393,8 @@ border-bottom: 1px solid;
   }
   .match .formulario{
     margin-top: 41%;
+  }
+  .partidos{
+    margin-left: 0;
   }
 }

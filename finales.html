@@ -11,11 +11,12 @@
     <header>
       <div class="header">
         <div class="logo">
+          <span class="hamburger-button icon-menu" id="burger-button"></span>
           <a href="#portada"><img src="images/copa.png" width="100px" height="auto" alt="copa.png">
           <h1>MUNDIAL RUSIA 2018</h1></a>
 
         </div>
-        <nav>
+        <nav class="menu" id="menu">
           <ul>
             <a href="#match">Partido</a>
           </ul>
@@ -755,5 +756,42 @@
     <footer>
       <span>Manuel-Diaz</span>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script type="text/javascript">
+    var consulta = window.matchMedia("(max-width:500px)");
+   consulta.addListener(mediaQuery);
+   var $burguerButton = document.getElementById('burger-button');
+   var $menu = document.getElementById('menu');
+   var $body = document.body;
+
+   function openMenu(){
+     $menu.classList.add("active");
+     $burguerButton.classList.add("icon-cancel-circle");
+     
+   };
+   function closeMenu(){
+     $menu.classList.remove("active");
+     $burguerButton.classList.remove("icon-cancel-circle");
+   };
+   function toggleMenu(){
+     $menu.classList.toggle("active");
+     document.body.classList.toggle('opened');
+     $burguerButton.classList.toggle("icon-cancel-circle");
+   };
+
+
+    function mediaQuery() {
+      if (consulta.matches) {
+        console.log("es verdad");
+        $burguerButton.addEventListener('touchstart', toggleMenu );
+      }
+      else {
+       console.log("es falso");
+       // $burguerButton.removeEventListener('touchstart', toggleMenu );
+      }
+    }
+
+  mediaQuery();
+</script>
   </body>
 </html>
