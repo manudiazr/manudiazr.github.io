@@ -140,8 +140,9 @@ align-items: center;
  text-align: center;
 }
 .equipo img {
-    width: 300px;
-    height: 200px;
+    max-width: 300px;
+    width: 100%;
+    max-height: 200px;
     display: flex;
   }
 .equipo label{
@@ -176,7 +177,10 @@ font-family: 'Russo One', sans-serif;
 .partidos{
   font-size: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
+  margin: 0 auto;
 }
 .grupos{
   min-width: 160px;
@@ -188,6 +192,7 @@ font-family: 'Russo One', sans-serif;
 }
 table {
   margin: 0 auto;
+  width: 100%;
 }
 thead{
   background-color: rgba(255, 0, 0, 0.5);
@@ -232,3 +237,101 @@ padding: 51px;
 display: block;
 }
 /* footer */
+@media screen and (max-width:1120px){
+  h1{
+font-size: 35px;
+  }
+  h1, nav, header ul{
+    display: block;
+  }
+  header ul{
+    font-size: 20px;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width:800px){
+.grid{
+  display: block;
+  max-width: 85%;
+  text-align: center;
+  margin: 15px auto;
+}
+.grid input{
+  width: 100%;
+  max-width: 128px;
+}
+.octavos, .cuartos, .finalistas, .campeon{
+  display: flex;
+  justify-content: center;
+}
+.octavos{
+  flex-wrap: wrap;
+}
+.equipo-final{
+width: auto;
+border: none;
+margin: 9px;
+}
+.grid .botton{
+  margin-top: 10px;
+}
+.ranking table{
+  width: 85%;
+}
+}
+@media screen and (max-width:650px){
+  .partidos{
+max-width: 100vh;
+width: 100%;
+font-size: 18px;
+margin-left: 10px
+  }
+  .programacion .tabla{
+    margin: 25px auto;
+    width: 93%;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:500px){
+  .cuartos{
+    flex-wrap: wrap;
+  }
+  .header{
+    display: block;
+  }
+  .logo a{
+    flex-direction: column;
+  }
+  header{
+    position: static;
+    margin-top: 0;
+  }
+header nav{
+text-align: center;
+position: absolute;
+width: 100%;
+background: rgb(224, 13, 13);
+left: -350px;
+  }
+  header ul {
+font-size: 42px;
+padding: 0;
+margin: 65px 0;
+border-bottom: 1px solid;
+  }
+  .portada {
+    margin-top: 0;
+    background-position: top;
+    height: 402px;
+  }
+  .titulo{
+  font-size: 31px;
+  }
+  .match{
+    height: 565px;
+  }
+  .match .formulario{
+    margin-top: 41%;
+  }
+}
