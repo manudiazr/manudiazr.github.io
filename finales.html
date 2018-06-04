@@ -42,7 +42,7 @@
         <div class="contenedor">
 
           <div class="formulario">
-            <form class="" action="finales.php" method="post">
+            <form class="form-marcadores" action="finales.php" method="post">
               <div class="nombre">
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" value="">
@@ -138,6 +138,37 @@
         </div>
       </div>
     </section>
+    <section class="match">  <!-- formulario de matach -->
+      <div class="transparencia">
+        <div class="contenedor">
+          <div class="formulario">
+            <form class="" action="send_form_email.php" method="post">
+              <div class="nombre">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" value="">
+              </div>
+              <div class="caja">
+                <div class="equipo">
+                  <img src="images/rusia.png" alt="">
+                  <label for="equipo_1"> Rusia
+                    <input type="text" name="equipo_1" value="">
+                  </label>
+                </div>
+                <p>VS</p>
+              <div class="equipo">
+                <img src="images/arabia-saudita.png" alt="">
+                <label for="equipo_2"> A. Saudita
+                  <input type="text" name="equipo_2" value="">
+                </label>
+              </div>
+              </div>
+
+            <input class="enviar botton"type="submit" value="Enviar">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="programacion">
       <div class="transparencia">
         <h2>PROGRAMACIÓN</h2>
@@ -199,7 +230,7 @@
             <span><img src="images/japon.png" width="50px" height="35px" alt=""> Japón</br></span>
           </div>
           </div>
-        <div class="calendario">
+        <div class="calendario contenedor">
           <h2>CALENDARIO</h2>
           <div class="tabla">
             <table>
@@ -703,10 +734,24 @@
     <section class="ranking">
       <div class="transparencia">
         <div class="contenedor">
-
+          <h2>RANKING</h2>
+          <table>
+            <thead>
+              <th>N°</th>
+              <th>Nombre</th>
+              <th>Puntos</th>
+            </thead>
+            <tbody>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
-
+    <footer>
+      <span>Manuel-Diaz</span>
+    </footer>
   </body>
 </html>

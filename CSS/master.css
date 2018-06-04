@@ -119,6 +119,18 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
+
+/* match */
+.match{
+  background-image: url("../images/soccer-2.jpg");
+  background-size: cover;
+  height:100%;
+}
+.equipo img {
+    width: 300px;
+    display: flex;
+  }
+
 .caja label{
   font-size: 20px;
 }
@@ -128,6 +140,7 @@ align-items: center;
   padding: 8px 16px;
   width: auto;
 }
+/* match */
 /* programacion */
 .programacion{
   background-image: url("../images/estadio2.jpg");
@@ -153,9 +166,11 @@ table {
 }
 thead{
   background-color: rgba(255, 0, 0, 0.5);
+  font-size: 21px;
 }
 tbody{
   background-color: rgba(66, 66, 96, 0.5);
+  font-size: 18px;
 }
 th{
 padding: 6px 14px;
@@ -164,3 +179,30 @@ td{
 margin: 5px;
 }
 /* programacion */
+/* ranking */
+.ranking{
+background-image: url("../images/soccer-ball.jpg");
+background-size: cover;
+background-position: center;
+height: 300px;
+}
+.ranking table{
+  width: 100%;
+  text-align: center;
+}
+.ranking h2{
+  text-align: center;
+}
+/* ranking */
+/* footer */
+footer{
+  background-color: rgb(224, 13, 13);
+  text-align: center;
+  height: 100%  ;
+  font-size: 16px;
+}
+footer span{
+padding: 51px;
+display: block;
+}
+/* footer */
