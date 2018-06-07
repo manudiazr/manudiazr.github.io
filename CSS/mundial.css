@@ -1,6 +1,6 @@
-/* *{
+*{
   border: 1px solid red;
-} */
+}
 /* font-family: 'Ubuntu', sans-serif;
 font-family: 'Russo One', sans-serif;
 font-family: 'Parisienne', cursive; */
@@ -65,7 +65,6 @@ margin-top: -50px;
 width: 100vw;
 z-index: 1;
 }
-
 .header{
   display: flex;
   align-items: center;
@@ -302,13 +301,6 @@ align-items: center;
 }
 
 /* match */
-.match img, .programacion img{
-  opacity: 0;
-  transition: 2500ms;
-}
-.match .b-loaded, .programacion .b-loaded{
-  opacity: 1;
-}
 .match{
   background-image: url("../images/soccer-2.jpg");
   background-size: cover;
@@ -441,35 +433,6 @@ font-size: 35px;
   text-align: center;
   margin: 15px auto;
 }
-.grid{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas:"grupoA grupoA grupo2B grupo2B"
-                      "grupoB grupoB grupo2A grupo2A"
-                      "grupoC grupoC grupo2D grupo2D"
-                      "grupoD grupoD grupo2C grupo2C"
-                      "grupoE grupoE grupo2F grupo2F"
-                      "grupoF grupoF grupo2E grupo2E"
-                      "grupoG grupoG grupo2H grupo2H"
-                      "grupoH grupoH grupo2G grupo2G"
-                      "cuartos_1 cuartos_1 cuartos_2 cuartos_2"
-                      "cuartos_3 cuartos_3 cuartos_4 cuartos_4"
-                      "cuartos_5 cuartos_5 cuartos_6 cuartos_6"
-                      "cuartos_7 cuartos_7 cuartos_8 cuartos_8"
-                      "semifinalista_1 semifinalista_1 semifinalista_2 semifinalista_2"
-                      "semifinalista_3 semifinalista_3 semifinalista_4 semifinalista_4"
-                      "finalista_3 finalista_3 finalista_4 finalista_4"
-                      "finalista_1 finalista_1 finalista_2 finalista_2"
-                      ". campeon campeon ."
-                      ". enviar enviar .";
-  text-align: center;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  margin: 4% 0;
-}
-
-
 .grid input{
   width: 100%;
   max-width: 128px;
@@ -553,6 +516,137 @@ border-bottom: 1px solid;
   padding-top: 18px;
   font-size: 31px;
   }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:"grupoA grupoA grupo2B grupo2B"
+                        "grupoB grupoB grupo2A grupo2A"
+                        "grupoC grupoC grupo2D grupo2D"
+                        "grupoD grupoD grupo2C grupo2C"
+                        "grupoE grupoE grupo2F grupo2F"
+                        "grupoF grupoF grupo2E grupo2E"
+                        "grupoG grupoG grupo2H grupo2H"
+                        "grupoH grupoH grupo2G grupo2G"
+                        "cuartos_1 cuartos_1 cuartos_2 cuartos_2"
+                        "cuartos_3 cuartos_3 cuartos_4 cuartos_4"
+                        "cuartos_5 cuartos_5 cuartos_6 cuartos_6"
+                        "cuartos_7 cuartos_7 cuartos_8 cuartos_8"
+                        "semifinalista_1 semifinalista_1 semifinalista_2 semifinalista_2"
+                        "semifinalista_3 semifinalista_3 semifinalista_4 semifinalista_4"
+                        "finalista_3 finalista_3 finalista_4 finalista_4"
+                        "finalista_1 finalista_1 finalista_2 finalista_2"
+                        ". campeon campeon ."
+                        ". enviar enviar .";
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin: 4% 0;
+  }
+  .grupoA{
+    grid-area: grupoA;
+  }
+  .grupo2A{
+    grid-area: grupo2A;
+    grid-row-gap: 10px;
+  }
+  .grupoB{
+  grid-area: grupoB;
+  }
+  .grupo2B{
+  grid-area: grupo2B;
+  }
+  .grupoC{
+  grid-area: grupoC;
+  }
+  .grupo2C{
+  grid-area: grupo2C;
+  }
+  .grupoD{
+  grid-area: grupoD;
+  }
+  .grupo2D{
+  grid-area: grupo2D;
+  }
+  .grupoE{
+  grid-area: grupoE;
+  }
+  .grupo2E{
+  grid-area: grupo2E;
+  }
+  .grupoF{
+  grid-area: grupoF;
+  }
+  .grupo2F{
+  grid-area: grupo2F;
+  }
+  .grupoG{
+  grid-area: grupoG;
+  }
+  .grupo2G{
+  grid-area: grupo2G;
+  }
+  .grupoH{
+  grid-area: grupoH;
+  }
+  .grupo2H{
+  grid-area: grupo2H;
+  }
+  .cuartos_1{
+  grid-area: cuartos_1;
+  }
+  .cuartos_2{
+  grid-area: cuartos_2;
+  }
+  .cuartos_3{
+  grid-area: cuartos_3;
+  }
+  .cuartos_4{
+  grid-area: cuartos_4;
+  }
+  .cuartos_5{
+  grid-area: cuartos_5;
+  }
+  .cuartos_6{
+  grid-area: cuartos_6;
+  }
+  .cuartos_7{
+  grid-area: cuartos_7;
+  }
+  .cuartos_8{
+  grid-area: cuartos_8;
+  }
+  .semifinalista_1{
+  grid-area: semifinalista_1;
+  }
+  .semifinalista_2{
+  grid-area: semifinalista_2;
+  }
+  .semifinalista_3{
+  grid-area: semifinalista_3;
+  }
+  .semifinalista_4{
+  grid-area: semifinalista_4;
+  }
+  .finalista_1{
+  grid-area: finalista_1;
+  }
+  .finalista_2{
+  grid-area: finalista_2;
+  }
+  .finalista_3{
+  grid-area: finalista_3;
+  }
+  .finalista_4{
+  grid-area: finalista_4;
+  }
+  .campeon{
+  grid-area: campeon;
+  }
+  .enviar{
+    grid-area: enviar;
+    margin-top: 20px;
+  }
   .match{
     height: 565px;
   }
@@ -562,5 +656,4 @@ border-bottom: 1px solid;
   .partidos{
     margin-left: 0;
   }
-
 }
