@@ -155,7 +155,7 @@ input, select {
   text-align: center;
   font-size: 16px;
 }
-.grid{
+/* .grid{
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-areas:"grupoA grupoB grupoC grupoD grupoE grupoF grupoG grupoH"
@@ -275,11 +275,24 @@ grid-area: campeon;
 .enviar{
   grid-area: enviar;
   margin-top: 20px;
+} */
+.grid{
+  font-size: 20px;
+}
+.grupo-1, .grupo-2, .fase-cuartos, .semifinalistas, .finalistas-3-4, .finalistas, .campeon {
+display: flex;
+text-align: center;
+justify-content: center;
+}
+.fase-grupos, .fase-cuartos, .semifinalistas, .finalistas-3-4, .finalistas, .campeon{
+  margin: 33px 0;
 }
 .equipo-final{
 margin: 5px 0;
-border-bottom: 2px solid white;
-width: 85%;
+}
+.enviar-1{
+  display: block;
+  margin: 10px auto;
 }
 
 
@@ -288,9 +301,8 @@ form{
     flex-direction: column;
     align-items: center;
 }
-.enviar{
-  width: 150px;
-}
+
+
 .equipo img {
   width: 300px;
   display: flex;
@@ -441,7 +453,10 @@ font-size: 35px;
   text-align: center;
   margin: 15px auto;
 }
-.grid{
+.grupo-1, .grupo-2, .fase-cuartos, .semifinalistas, .finalistas-3-4, .finalistas, .campeon {
+flex-wrap: wrap;
+}
+/* .grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:"grupoA grupoA grupo2B grupo2B"
@@ -467,7 +482,7 @@ font-size: 35px;
   align-content: center;
   justify-items: center;
   margin: 4% 0;
-}
+} */
 
 
 .grid input{
@@ -505,6 +520,9 @@ margin-left: 10px
     width: 93%;
     font-size: 12px;
   }
+.fase-grupos{
+  display: flex;
+}
 }
 @media screen and (max-width:500px){
  .hamburger-button{
