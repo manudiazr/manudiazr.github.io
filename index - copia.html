@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/master.css">
+    <title>Mundial Rusia 2018</title>
+    <link rel="icon" type="image/x-icon" href="images/copa.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <span class="hamburger-button icon-menu" id="burger-button"></span>
+          <a href="#portada"><img src="images/copa.png" width="100px" height="auto" alt="copa.png">
+          <h1>MUNDIAL RUSIA 2018</h1></a>
+
+        </div>
+        <nav class="menu" id="menu">
+          <ul>
+            <a href="#match">Partido</a>
+          </ul>
+          <ul>
+            <a href="#programacion">Programación</a>
+          </ul>
+          <ul>
+            <a href="#ranking">Ranking</a>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+    <section class="portada" id="portada">
+      <div class="transparencia">
+        <div class="titulo">
+          <span class="titulo-1">TORNEO MUNDIALISTA</span>
+          </br>
+          <span class="titulo-2">Famila Diaz Gonzalez</span>
+        </div>
+      </div>
+
+    </section>
+    <section class="marcador">  <!-- formulario de marcadores -->
+      <div class="transparencia">
+        <div class="">
+
+          <div class="formulario">
+            <form class="form-marcadores" action="finales.php" method="post">
+              <div class="nombre">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" value="">
+
+              </div>
+              <div class="grid">
+                <div class="fase-grupos">
+                  <div class="grupo-1">
+                    <div class="equipo-final grupoA">
+                        <label for="grupoA"> 1er A
+                          <select class="" name="grupoA">
+                            <option value="n/a">Elije un equipo</option>
+                            <option value="A. Saudita">A. Saudita</option>
+                            <option value="Egipto">Egipto</option>
+                            <option value="Rusia">Rusia</option>
+                            <option value="Uruguay">Uruguay</option>
+                          </select>
+                        </label>
+                    </div>
+                    <div class="equipo-final grupoB">
+                      <label for="grupoB"> 1er B
+                        <select class="" name="grupoB">
+                          <option value="n/a">Elije un equipo</option>
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </select>
+                      </label>
+                    </div>
+                    <div class="equipo-final grupoC">
+                        <label for="grupoC">1er C
+                          <select class="" name="grupoC">
+                            <option value="n/a">Elije un equipo</option>
+                            <option value="Francia">Francia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                          </select>
+                        </label>
+                    </div>
+                    <div class="equipo-final grupoD">
+                      <label for="grupoD"> 1er D
+                        <select class="" name="grupoD">
+                          <option value="n/a">Elije un equipo</option>
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </select>
+                      </label>
+                    </div>
+                    <div class="equipo-final grupoE">
+                        <label for="grupoE"> 1er E
+                          <select class="" name="grupoE">
+                            <option value="n/a">Elije un equipo</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Suiza">Suiza</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Serbia">Serbia</option>
+                          </select>
+                        </label>
+                    </div>
+                    <div class="equipo-final grupoF">
+                      <label for="grupoF"> 1er F
+                        <select class="" name="grupoF">
+                          <option value="n/a">Elije un equipo</option>
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </select>
+                      </label>
+                    </div>
+                    <div class="equipo-final grupoG">
+                        <label for="grupoG"> 1er G
+                          <select class="" name="grupoG">
+                            <option value="n/a">Elije un equipo</option>
+                            <option value="Bélgica">Bélgica</option>
+                            <option value="Panamá">Panamá</option>
+                            <option value="Túnez">Túnez</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                          </select>
+                        </label>
+                    </div>
+                    <div class="equipo-final grupoH">
+                      <label for="grupoH"> 1er H
+                        <select class="" name="grupoH">
+                          <option value="n/a">Elije un equipo</option>
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </select>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="grupo-2">
+                    <div class="equipo-final grupo2B">
+                        <label for="2grupoB"> 2nd B
+                          <select class="" name="2grupoB">
+                            <option value="n/a">Elije un equipo</option>
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Marruecos">Marruecos</option>
+                            <option value="Irán">Irán</option>
+                          </select>
+                        </label>
+                    </div>
+                    <div class="equipo-final grupo2A">
+                      <label for="2grupoA"> 2nd A
+                        <select class="" name="2grupoA">
+                          <option value="n/a">Elije un equipo</option>
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </select>
+                      </label>
+                    </div>
+                    <div class="equipo-final grupo2D">
+                        <label for="2grupoD">2nd D
+                          <select class="" name="2grupoD">
+                            <option value="n/a">Elije un equipo</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Islandia">Islandia</option>
+                            <option value="Croacia">Croacia</option>
+                            <option value="Nigeria">Nigeria</option>
+                          </select>
+                        </label>
+                    </div>
+                    <div class="equipo-final grupo2C">
+                      <label for="2grupoC"> 2nd C
+                        <select class="" name="2grupoC">
+                          <option value="n/a">Elije un equipo</option>
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </select>
+                      </label>
+                    </div>
+                    <div class="equipo-final grupo2F">
+                        <label for="2grupoF"> 2nd F
+                          <select class="" name="2grupoF">
+                            <option value="n/a">Elije un equipo</option>
+                            <option value="Alemania">Alemania</option>
+                            <option value="México">México</option>
+                            <option value="Suecia">Suecia</option>
+                            <option value="Corea del Sur">Corea del Sur</option>
+                          </select>
+                        </label>
+                    </div>
+                    <div class="equipo-final grupo2E">
+                      <label for="2grupoE"> 2nd E
+                        <select class="" name="2grupoE">
+                          <option value="n/a">Elije un equipo</option>
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </select>
+                      </label>
+                    </div>
+                    <div class="equipo-final grupo2H">
+                        <label for="2grupoH"> 1er H
+                          <select class="" name="2grupoH">
+                            <option value="n/a">Elije un equipo</option>
+                            <option value="Polonia">Polonia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Japón">Japón</option>
+                          </select>
+                        </label>
+                    </div>
+                    <div class="equipo-final grupo2G">
+                      <label for="2grupoG"> 2nd G
+                        <select class="" name="2grupoG">
+                          <option value="n/a">Elije un equipo</option>
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </select>
+                      </label>
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="fase-cuartos">
+                  <div class="equipo-final cuartos_1">
+                      <label for="cuartos_1"> Cuartos de final
+                        <select class="lista-equipo" name="cuartos_1">
+                            <option value="n/a">Elije un equipo</option>
+                          <optgroup label="Grupo A">
+                            <option value="A. Saudita">A. Saudita</option>
+                            <option value="Egipto">Egipto</option>
+                            <option value="Rusia">Rusia</option>
+                            <option value="Uruguay">Uruguay</option>
+                          </optgroup>
+                          <optgroup label="Grupo B">
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Marruecos">Marruecos</option>
+                            <option value="Irán">Irán</option>
+                          </optgroup>
+                          <optgroup label="Grupo C">
+                            <option value="Francia">Francia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                          </optgroup>
+                          <optgroup label="Grupo D">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Islandia">Islandia</option>
+                            <option value="Croacia">Croacia</option>
+                            <option value="Nigeria">Nigeria</option>
+                          </optgroup>
+                          <optgroup label="Grupo E">
+                            <option value="Brasil">Brasil</option>
+                            <option value="Suiza">Suiza</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Serbia">Serbia</option>
+                          </optgroup>
+                          <optgroup label="Grupo F">
+                            <option value="Alemania">Alemania</option>
+                            <option value="México">México</option>
+                            <option value="Suecia">Suecia</option>
+                            <option value="Corea del Sur">Corea del Sur</option>
+                          </optgroup>
+                          <optgroup label="Grupo G">
+                            <option value="Bélgica">Bélgica</option>
+                            <option value="Panamá">Panamá</option>
+                            <option value="Túnez">Túnez</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                          </optgroup>
+                          <optgroup label="Grupo H">
+                            <option value="Polonia">Polonia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Japón">Japón</option>
+                          </optgroup>
+                          </select>
+                      </label>
+                  </div>
+                  <div class="equipo-final cuartos_2">
+                    <label for="cuartos_2"> Cuartos de final
+                      <select class="lista-equipo" name="cuartos_2">
+                          <option value="n/a">Elije un equipo</option>
+                        <optgroup label="Grupo A">
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </optgroup>
+                        <optgroup label="Grupo B">
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </optgroup>
+                        <optgroup label="Grupo C">
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </optgroup>
+                        <optgroup label="Grupo D">
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Grupo E">
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </optgroup>
+                        <optgroup label="Grupo F">
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </optgroup>
+                        <optgroup label="Grupo G">
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </optgroup>
+                        <optgroup label="Grupo H">
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                  </div>
+                  <div class="equipo-final cuartos_3">
+                      <label for="cuartos_3"> Cuartos de final
+                        <select class="lista-equipo" name="cuartos_3">
+                            <option value="n/a">Elije un equipo</option>
+                          <optgroup label="Grupo A">
+                            <option value="A. Saudita">A. Saudita</option>
+                            <option value="Egipto">Egipto</option>
+                            <option value="Rusia">Rusia</option>
+                            <option value="Uruguay">Uruguay</option>
+                          </optgroup>
+                          <optgroup label="Grupo B">
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Marruecos">Marruecos</option>
+                            <option value="Irán">Irán</option>
+                          </optgroup>
+                          <optgroup label="Grupo C">
+                            <option value="Francia">Francia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                          </optgroup>
+                          <optgroup label="Grupo D">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Islandia">Islandia</option>
+                            <option value="Croacia">Croacia</option>
+                            <option value="Nigeria">Nigeria</option>
+                          </optgroup>
+                          <optgroup label="Grupo E">
+                            <option value="Brasil">Brasil</option>
+                            <option value="Suiza">Suiza</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Serbia">Serbia</option>
+                          </optgroup>
+                          <optgroup label="Grupo F">
+                            <option value="Alemania">Alemania</option>
+                            <option value="México">México</option>
+                            <option value="Suecia">Suecia</option>
+                            <option value="Corea del Sur">Corea del Sur</option>
+                          </optgroup>
+                          <optgroup label="Grupo G">
+                            <option value="Bélgica">Bélgica</option>
+                            <option value="Panamá">Panamá</option>
+                            <option value="Túnez">Túnez</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                          </optgroup>
+                          <optgroup label="Grupo H">
+                            <option value="Polonia">Polonia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Japón">Japón</option>
+                          </optgroup>
+                          </select>
+                      </label>
+                  </div>
+                  <div class="equipo-final cuartos_4">
+                    <label for="cuartos_4"> Cuartos de final
+                      <select class="lista-equipo" name="cuartos_4">
+                          <option value="n/a">Elije un equipo</option>
+                        <optgroup label="Grupo A">
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </optgroup>
+                        <optgroup label="Grupo B">
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </optgroup>
+                        <optgroup label="Grupo C">
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </optgroup>
+                        <optgroup label="Grupo D">
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Grupo E">
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </optgroup>
+                        <optgroup label="Grupo F">
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </optgroup>
+                        <optgroup label="Grupo G">
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </optgroup>
+                        <optgroup label="Grupo H">
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                  </div>
+
+                  <div class="equipo-final cuartos_5">
+                      <label for="cuartos_5"> Cuartos de final
+                        <select class="lista-equipo" name="cuartos_5">
+                            <option value="n/a">Elije un equipo</option>
+                          <optgroup label="Grupo A">
+                            <option value="A. Saudita">A. Saudita</option>
+                            <option value="Egipto">Egipto</option>
+                            <option value="Rusia">Rusia</option>
+                            <option value="Uruguay">Uruguay</option>
+                          </optgroup>
+                          <optgroup label="Grupo B">
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Marruecos">Marruecos</option>
+                            <option value="Irán">Irán</option>
+                          </optgroup>
+                          <optgroup label="Grupo C">
+                            <option value="Francia">Francia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                          </optgroup>
+                          <optgroup label="Grupo D">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Islandia">Islandia</option>
+                            <option value="Croacia">Croacia</option>
+                            <option value="Nigeria">Nigeria</option>
+                          </optgroup>
+                          <optgroup label="Grupo E">
+                            <option value="Brasil">Brasil</option>
+                            <option value="Suiza">Suiza</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Serbia">Serbia</option>
+                          </optgroup>
+                          <optgroup label="Grupo F">
+                            <option value="Alemania">Alemania</option>
+                            <option value="México">México</option>
+                            <option value="Suecia">Suecia</option>
+                            <option value="Corea del Sur">Corea del Sur</option>
+                          </optgroup>
+                          <optgroup label="Grupo G">
+                            <option value="Bélgica">Bélgica</option>
+                            <option value="Panamá">Panamá</option>
+                            <option value="Túnez">Túnez</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                          </optgroup>
+                          <optgroup label="Grupo H">
+                            <option value="Polonia">Polonia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Japón">Japón</option>
+                          </optgroup>
+                          </select>
+                      </label>
+                  </div>
+                  <div class="equipo-final cuartos_6">
+                    <label for="cuartos_6"> Cuartos de final
+                      <select class="lista-equipo" name="cuartos_6">
+                          <option value="n/a">Elije un equipo</option>
+                        <optgroup label="Grupo A">
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </optgroup>
+                        <optgroup label="Grupo B">
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </optgroup>
+                        <optgroup label="Grupo C">
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </optgroup>
+                        <optgroup label="Grupo D">
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Grupo E">
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </optgroup>
+                        <optgroup label="Grupo F">
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </optgroup>
+                        <optgroup label="Grupo G">
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </optgroup>
+                        <optgroup label="Grupo H">
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                  </div>
+                  <div class="equipo-final cuartos_7">
+                      <label for="cuartos_7"> Cuartos de final
+                        <select class="lista-equipo" name="cuartos_7">
+                            <option value="n/a">Elije un equipo</option>
+                          <optgroup label="Grupo A">
+                            <option value="A. Saudita">A. Saudita</option>
+                            <option value="Egipto">Egipto</option>
+                            <option value="Rusia">Rusia</option>
+                            <option value="Uruguay">Uruguay</option>
+                          </optgroup>
+                          <optgroup label="Grupo B">
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Marruecos">Marruecos</option>
+                            <option value="Irán">Irán</option>
+                          </optgroup>
+                          <optgroup label="Grupo C">
+                            <option value="Francia">Francia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                          </optgroup>
+                          <optgroup label="Grupo D">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Islandia">Islandia</option>
+                            <option value="Croacia">Croacia</option>
+                            <option value="Nigeria">Nigeria</option>
+                          </optgroup>
+                          <optgroup label="Grupo E">
+                            <option value="Brasil">Brasil</option>
+                            <option value="Suiza">Suiza</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Serbia">Serbia</option>
+                          </optgroup>
+                          <optgroup label="Grupo F">
+                            <option value="Alemania">Alemania</option>
+                            <option value="México">México</option>
+                            <option value="Suecia">Suecia</option>
+                            <option value="Corea del Sur">Corea del Sur</option>
+                          </optgroup>
+                          <optgroup label="Grupo G">
+                            <option value="Bélgica">Bélgica</option>
+                            <option value="Panamá">Panamá</option>
+                            <option value="Túnez">Túnez</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                          </optgroup>
+                          <optgroup label="Grupo H">
+                            <option value="Polonia">Polonia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Japón">Japón</option>
+                          </optgroup>
+                          </select>
+                      </label>
+                  </div>
+                  <div class="equipo-final cuartos_8">
+                    <label for="cuartos_8"> Cuartos de final
+                      <select class="lista-equipo" name="cuartos_8">
+                          <option value="n/a">Elije un equipo</option>
+                        <optgroup label="Grupo A">
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </optgroup>
+                        <optgroup label="Grupo B">
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </optgroup>
+                        <optgroup label="Grupo C">
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </optgroup>
+                        <optgroup label="Grupo D">
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Grupo E">
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </optgroup>
+                        <optgroup label="Grupo F">
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </optgroup>
+                        <optgroup label="Grupo G">
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </optgroup>
+                        <optgroup label="Grupo H">
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                  </div>
+                </div>
+                <div class="semifinalistas">
+                  <div class="equipo-final semifinalista_1">
+                      <label for="semifinalista_1"> Semi finalista
+                        <select class="lista-equipo" name="semifinalista_1">
+                            <option value="n/a">Elije un equipo</option>
+                          <optgroup label="Grupo A">
+                            <option value="A. Saudita">A. Saudita</option>
+                            <option value="Egipto">Egipto</option>
+                            <option value="Rusia">Rusia</option>
+                            <option value="Uruguay">Uruguay</option>
+                          </optgroup>
+                          <optgroup label="Grupo B">
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Marruecos">Marruecos</option>
+                            <option value="Irán">Irán</option>
+                          </optgroup>
+                          <optgroup label="Grupo C">
+                            <option value="Francia">Francia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                          </optgroup>
+                          <optgroup label="Grupo D">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Islandia">Islandia</option>
+                            <option value="Croacia">Croacia</option>
+                            <option value="Nigeria">Nigeria</option>
+                          </optgroup>
+                          <optgroup label="Grupo E">
+                            <option value="Brasil">Brasil</option>
+                            <option value="Suiza">Suiza</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Serbia">Serbia</option>
+                          </optgroup>
+                          <optgroup label="Grupo F">
+                            <option value="Alemania">Alemania</option>
+                            <option value="México">México</option>
+                            <option value="Suecia">Suecia</option>
+                            <option value="Corea del Sur">Corea del Sur</option>
+                          </optgroup>
+                          <optgroup label="Grupo G">
+                            <option value="Bélgica">Bélgica</option>
+                            <option value="Panamá">Panamá</option>
+                            <option value="Túnez">Túnez</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                          </optgroup>
+                          <optgroup label="Grupo H">
+                            <option value="Polonia">Polonia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Japón">Japón</option>
+                          </optgroup>
+                          </select>
+                      </label>
+                  </div>
+                  <div class="equipo-final semifinalista_3">
+                    <label for="semifinalista_3"> Semi finalista
+                      <select class="lista-equipo" name="semifinalista_3">
+                          <option value="n/a">Elije un equipo</option>
+                        <optgroup label="Grupo A">
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </optgroup>
+                        <optgroup label="Grupo B">
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </optgroup>
+                        <optgroup label="Grupo C">
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </optgroup>
+                        <optgroup label="Grupo D">
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Grupo E">
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </optgroup>
+                        <optgroup label="Grupo F">
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </optgroup>
+                        <optgroup label="Grupo G">
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </optgroup>
+                        <optgroup label="Grupo H">
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                  </div>
+
+                  <div class="equipo-final semifinalista_2">
+                      <label for="semifinalista_2"> Semi finalista
+                        <select class="lista-equipo" name="semifinalista_2">
+                            <option value="n/a">Elije un equipo</option>
+                          <optgroup label="Grupo A">
+                            <option value="A. Saudita">A. Saudita</option>
+                            <option value="Egipto">Egipto</option>
+                            <option value="Rusia">Rusia</option>
+                            <option value="Uruguay">Uruguay</option>
+                          </optgroup>
+                          <optgroup label="Grupo B">
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Marruecos">Marruecos</option>
+                            <option value="Irán">Irán</option>
+                          </optgroup>
+                          <optgroup label="Grupo C">
+                            <option value="Francia">Francia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                          </optgroup>
+                          <optgroup label="Grupo D">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Islandia">Islandia</option>
+                            <option value="Croacia">Croacia</option>
+                            <option value="Nigeria">Nigeria</option>
+                          </optgroup>
+                          <optgroup label="Grupo E">
+                            <option value="Brasil">Brasil</option>
+                            <option value="Suiza">Suiza</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Serbia">Serbia</option>
+                          </optgroup>
+                          <optgroup label="Grupo F">
+                            <option value="Alemania">Alemania</option>
+                            <option value="México">México</option>
+                            <option value="Suecia">Suecia</option>
+                            <option value="Corea del Sur">Corea del Sur</option>
+                          </optgroup>
+                          <optgroup label="Grupo G">
+                            <option value="Bélgica">Bélgica</option>
+                            <option value="Panamá">Panamá</option>
+                            <option value="Túnez">Túnez</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                          </optgroup>
+                          <optgroup label="Grupo H">
+                            <option value="Polonia">Polonia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Japón">Japón</option>
+                          </optgroup>
+                          </select>
+                      </label>
+                  </div>
+                  <div class="equipo-final semifinalista_4">
+                    <label for="semifinalista_4"> Semi finalista
+                      <select class="lista-equipo" name="semifinalista_4">
+                          <option value="n/a">Elije un equipo</option>
+                        <optgroup label="Grupo A">
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </optgroup>
+                        <optgroup label="Grupo B">
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </optgroup>
+                        <optgroup label="Grupo C">
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </optgroup>
+                        <optgroup label="Grupo D">
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Grupo E">
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </optgroup>
+                        <optgroup label="Grupo F">
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </optgroup>
+                        <optgroup label="Grupo G">
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </optgroup>
+                        <optgroup label="Grupo H">
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                  </div>
+
+                </div>
+                <div class="finalistas-3-4">
+                  <div class="equipo-final finalista_3">
+                    <label for="finalista_3"> 3 y 4 puesto
+                      <select class="lista-equipo" name="finalista_3">
+                          <option value="n/a">Elije un equipo</option>
+                        <optgroup label="Grupo A">
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </optgroup>
+                        <optgroup label="Grupo B">
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </optgroup>
+                        <optgroup label="Grupo C">
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </optgroup>
+                        <optgroup label="Grupo D">
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Grupo E">
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </optgroup>
+                        <optgroup label="Grupo F">
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </optgroup>
+                        <optgroup label="Grupo G">
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </optgroup>
+                        <optgroup label="Grupo H">
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                  </div>
+                  <div class="equipo-final finalista_4">
+                    <label for="finalista_4"> 3 y 4 puesto
+                      <select class="lista-equipo" name="finalista_4">
+                          <option value="n/a">Elije un equipo</option>
+                        <optgroup label="Grupo A">
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </optgroup>
+                        <optgroup label="Grupo B">
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </optgroup>
+                        <optgroup label="Grupo C">
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </optgroup>
+                        <optgroup label="Grupo D">
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Grupo E">
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </optgroup>
+                        <optgroup label="Grupo F">
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </optgroup>
+                        <optgroup label="Grupo G">
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </optgroup>
+                        <optgroup label="Grupo H">
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                  </div>
+                </div>
+                <div class="finalistas">
+                  <div class="equipo-final finalista_1">
+                      <label for="finalista_1"> Finalista
+                        <select class="lista-equipo" name="finalista_1">
+                            <option value="n/a">Elije un equipo</option>
+                          <optgroup label="Grupo A">
+                            <option value="A. Saudita">A. Saudita</option>
+                            <option value="Egipto">Egipto</option>
+                            <option value="Rusia">Rusia</option>
+                            <option value="Uruguay">Uruguay</option>
+                          </optgroup>
+                          <optgroup label="Grupo B">
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Marruecos">Marruecos</option>
+                            <option value="Irán">Irán</option>
+                          </optgroup>
+                          <optgroup label="Grupo C">
+                            <option value="Francia">Francia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                          </optgroup>
+                          <optgroup label="Grupo D">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Islandia">Islandia</option>
+                            <option value="Croacia">Croacia</option>
+                            <option value="Nigeria">Nigeria</option>
+                          </optgroup>
+                          <optgroup label="Grupo E">
+                            <option value="Brasil">Brasil</option>
+                            <option value="Suiza">Suiza</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Serbia">Serbia</option>
+                          </optgroup>
+                          <optgroup label="Grupo F">
+                            <option value="Alemania">Alemania</option>
+                            <option value="México">México</option>
+                            <option value="Suecia">Suecia</option>
+                            <option value="Corea del Sur">Corea del Sur</option>
+                          </optgroup>
+                          <optgroup label="Grupo G">
+                            <option value="Bélgica">Bélgica</option>
+                            <option value="Panamá">Panamá</option>
+                            <option value="Túnez">Túnez</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                          </optgroup>
+                          <optgroup label="Grupo H">
+                            <option value="Polonia">Polonia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Japón">Japón</option>
+                          </optgroup>
+                          </select>
+                      </label>
+                  </div>
+                  <div class="equipo-final finalista_2">
+                      <label for="finalista_2"> Finalista
+                        <select class="lista-equipo" name="finalista_2">
+                            <option value="n/a">Elije un equipo</option>
+                          <optgroup label="Grupo A">
+                            <option value="A. Saudita">A. Saudita</option>
+                            <option value="Egipto">Egipto</option>
+                            <option value="Rusia">Rusia</option>
+                            <option value="Uruguay">Uruguay</option>
+                          </optgroup>
+                          <optgroup label="Grupo B">
+                            <option value="Portugal">Portugal</option>
+                            <option value="España">España</option>
+                            <option value="Marruecos">Marruecos</option>
+                            <option value="Irán">Irán</option>
+                          </optgroup>
+                          <optgroup label="Grupo C">
+                            <option value="Francia">Francia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Perú">Perú</option>
+                            <option value="Dinamarca">Dinamarca</option>
+                          </optgroup>
+                          <optgroup label="Grupo D">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Islandia">Islandia</option>
+                            <option value="Croacia">Croacia</option>
+                            <option value="Nigeria">Nigeria</option>
+                          </optgroup>
+                          <optgroup label="Grupo E">
+                            <option value="Brasil">Brasil</option>
+                            <option value="Suiza">Suiza</option>
+                            <option value="Costa Rica">Costa Rica</option>
+                            <option value="Serbia">Serbia</option>
+                          </optgroup>
+                          <optgroup label="Grupo F">
+                            <option value="Alemania">Alemania</option>
+                            <option value="México">México</option>
+                            <option value="Suecia">Suecia</option>
+                            <option value="Corea del Sur">Corea del Sur</option>
+                          </optgroup>
+                          <optgroup label="Grupo G">
+                            <option value="Bélgica">Bélgica</option>
+                            <option value="Panamá">Panamá</option>
+                            <option value="Túnez">Túnez</option>
+                            <option value="Inglaterra">Inglaterra</option>
+                          </optgroup>
+                          <optgroup label="Grupo H">
+                            <option value="Polonia">Polonia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Japón">Japón</option>
+                          </optgroup>
+                          </select>
+                      </label>
+                  </div>
+                </div>
+
+                <div class="equipo-final campeon">
+                    <label for="campeon"> Campeon
+                      <select class="lista-equipo" name="campeon">
+                          <option value="n/a">Elije un equipo</option>
+                        <optgroup label="Grupo A">
+                          <option value="A. Saudita">A. Saudita</option>
+                          <option value="Egipto">Egipto</option>
+                          <option value="Rusia">Rusia</option>
+                          <option value="Uruguay">Uruguay</option>
+                        </optgroup>
+                        <optgroup label="Grupo B">
+                          <option value="Portugal">Portugal</option>
+                          <option value="España">España</option>
+                          <option value="Marruecos">Marruecos</option>
+                          <option value="Irán">Irán</option>
+                        </optgroup>
+                        <optgroup label="Grupo C">
+                          <option value="Francia">Francia</option>
+                          <option value="Australia">Australia</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Dinamarca">Dinamarca</option>
+                        </optgroup>
+                        <optgroup label="Grupo D">
+                          <option value="Argentina">Argentina</option>
+                          <option value="Islandia">Islandia</option>
+                          <option value="Croacia">Croacia</option>
+                          <option value="Nigeria">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Grupo E">
+                          <option value="Brasil">Brasil</option>
+                          <option value="Suiza">Suiza</option>
+                          <option value="Costa Rica">Costa Rica</option>
+                          <option value="Serbia">Serbia</option>
+                        </optgroup>
+                        <optgroup label="Grupo F">
+                          <option value="Alemania">Alemania</option>
+                          <option value="México">México</option>
+                          <option value="Suecia">Suecia</option>
+                          <option value="Corea del Sur">Corea del Sur</option>
+                        </optgroup>
+                        <optgroup label="Grupo G">
+                          <option value="Bélgica">Bélgica</option>
+                          <option value="Panamá">Panamá</option>
+                          <option value="Túnez">Túnez</option>
+                          <option value="Inglaterra">Inglaterra</option>
+                        </optgroup>
+                        <optgroup label="Grupo H">
+                          <option value="Polonia">Polonia</option>
+                          <option value="Senegal">Senegal</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Japón">Japón</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                </div>
+
+                <input class="enviar-1 botton"type="submit" value="Enviar">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="match" id="match">  <!-- formulario de matach -->
+      <div class="transparencia">
+        <div class="contenedor">
+          <div class="formulario">
+            <form class="" action="send_form_email.php" method="post">
+              <div class="nombre">
+                
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" value="">
+              </div>
+              <div class="caja">
+                <div class="equipo">
+                  <img class="img-izq" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/rusia.png" alt="">
+                  <label for="equipo_1"> Rusia
+                    <input type="text" name="equipo_1" value="">
+                  </label>
+                </div>
+                <p>VS</p>
+              <div class="equipo">
+                <img class="img-der" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/arabia-saudita.png" alt="">
+                <label for="equipo_2"> A. Saudita
+                  <input type="text" name="equipo_2" value="">
+                </label>
+              </div>
+              </div>
+
+            <input class="enviar-2 botton"type="submit" value="Enviar">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="programacion" id="programacion">
+      <div class="transparencia">
+        <h2>PROGRAMACIÓN</h2>
+        <div class="partidos">
+          <div class="grupos A">
+            <h3>Grupo A</h3>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/rusia.png" width="50px" height="35px" alt=""> Rusia</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/arabia-saudita.png" width="50px" height="35px" alt=""> A. Saudita</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/egipto.png" width="50px" height="35px" alt=""> Egipto</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/uruguay.png" width="50px" height="35px" alt=""> Uruguay</br></span>
+          </div>
+          <div class="grupos B">
+            <h3>Grupo B</h3>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/portugal.png" width="50px" height="35px" alt=""> Portugal</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/españa.png" width="50px" height="35px" alt=""> España</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/marruecos.png" width="50px" height="35px" alt=""> Marruecos</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/iran.png" width="50px" height="35px" alt=""> Irán</br></span>
+          </div>
+          <div class="grupos C">
+            <h3>Grupo C</h3>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/francia.png" width="50px" height="35px" alt=""> Francia</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/australia.png" width="50px" height="35px" alt=""> Australia</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/peru.png" width="50px" height="35px" alt=""> Perú</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/dinamarca.png" width="50px" height="35px" alt=""> Dinamarca</br></span>
+          </div>
+          <div class="grupos D">
+            <h3>Grupo D</h3>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/argentina.png" width="50px" height="35px" alt=""> Argentina</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/islandia.png" width="50px" height="35px" alt=""> Islandia</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/croacia.png" width="50px" height="35px" alt=""> Croacia</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/nigeria.png" width="50px" height="35px" alt=""> Nigeria</br></span>
+          </div>
+          <div class="grupos E">
+            <h3>Grupo E</h3>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/brasil.png" width="50px" height="35px" alt=""> Brasil</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/suiza.png" width="50px" height="35px" alt=""> Suiza</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/costa-rica.png" width="50px" height="35px" alt=""> Costa Rica</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/serbia.png" width="50px" height="35px" alt=""> Serbia</br></span>
+          </div>
+          <div class="grupos F">
+            <h3>Grupo F</h3>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/alemania.png" width="50px" height="35px" alt=""> Alemania</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/mexico.png" width="50px" height="35px" alt=""> México</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/suecia.png" width="50px" height="35px" alt=""> Suecia</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/corea-sur.png" width="50px" height="35px" alt=""> C. del Sur</br></span>
+          </div>
+          <div class="grupos G">
+            <h3>Grupo G</h3>
+              <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/belgica.png" width="50px" height="35px" alt=""> Bélgica</br></span>
+              <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/panama.png" width="50px" height="35px" alt=""> Panamá</br></span>
+              <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/tunez.png" width="50px" height="35px" alt=""> Tunez</br></span>
+              <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/inglaterra.png" width="50px" height="35px" alt=""> Inglaterra</br></span>
+          </div>
+          <div class="grupos H">
+            <h3>Grupo H</h3>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/polonia.png" width="50px" height="35px" alt=""> Polonia</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/senegal.png" width="50px" height="35px" alt=""> Senegal</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/colombia.png" width="50px" height="35px" alt=""> Colombia</br></span>
+            <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="images/japon.png" width="50px" height="35px" alt=""> Japón</br></span>
+          </div>
+          </div>
+        <div class="calendario contenedor">
+          <h2>CALENDARIO</h2>
+          <div class="tabla">
+            <table>
+              <thead>
+                <th>Fecha</th>
+                <th>Hora</th>
+                <th>Grupo</th>
+                <th></th>
+                <th>Equipo</th>
+                <th>Vs</th>
+                <th>Equipo</th>
+                <th></th>
+              </thead>
+              <tbody>
+                <td>14-jun</td>
+                <td>10:00 a.m.</td>
+                <td>A</td>
+                <td></td>
+                <td>RUSIA</td>
+                <td>vs</td>
+                <td>A. SAUDITA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>15-jun</td>
+                <td>7:00 a.m.</td>
+                <td>A</td>
+                <td></td>
+                <td>EGIPTO</td>
+                <td>vs</td>
+                <td>URUGAY</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>15-jun</td>
+                <td>10:00 a.m.</td>
+                <td>B</td>
+                <td></td>
+                <td>MARRUECOS</td>
+                <td>vs</td>
+                <td>IRAN</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>15-jun</td>
+                <td>1:00 P.m.</td>
+                <td>B</td>
+                <td></td>
+                <td>PORTUGAL</td>
+                <td>vs</td>
+                <td>ESPAÑA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>16-jun</td>
+                <td>5:00 a.m.</td>
+                <td>C</td>
+                <td></td>
+                <td>FRANCIA</td>
+                <td>vs</td>
+                <td>AUSTRALIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>16-jun</td>
+                <td>5:00 a.m.</td>
+                <td>C</td>
+                <td></td>
+                <td>PERÚ</td>
+                <td>vs</td>
+                <td>DINAMARCA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>16-jun</td>
+                <td>8:00 a.m.</td>
+                <td>D</td>
+                <td></td>
+                <td>ARGENTINA</td>
+                <td>vs</td>
+                <td>ISLANDIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>16-jun</td>
+                <td>2:00 P.m.</td>
+                <td>D</td>
+                <td></td>
+                <td>CROACIA</td>
+                <td>vs</td>
+                <td>NIGERIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>17-jun</td>
+                <td>7:00 a.m.</td>
+                <td>E</td>
+                <td></td>
+                <td>COSTA RICA</td>
+                <td>vs</td>
+                <td>SERBIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>17-jun</td>
+                <td>1:00 p.m.</td>
+                <td>E</td>
+                <td></td>
+                <td>BRASIL</td>
+                <td>vs</td>
+                <td>SUIZA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>17-jun</td>
+                <td>10:00 a.m.</td>
+                <td>F</td>
+                <td></td>
+                <td>ALEMANIA</td>
+                <td>vs</td>
+                <td>MEXICO</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>18-jun</td>
+                <td>7:00 a.m.</td>
+                <td>F</td>
+                <td></td>
+                <td>SUECIA</td>
+                <td>vs</td>
+                <td>C. DEL SUR</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>18-jun</td>
+                <td>10:00 a.m.</td>
+                <td>G</td>
+                <td></td>
+                <td>BÉLGICA</td>
+                <td>vs</td>
+                <td>PANAMÁ</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>18-jun</td>
+                <td>1:00 p.m.</td>
+                <td>G</td>
+                <td></td>
+                <td>TUNEZ</td>
+                <td>vs</td>
+                <td>INGLATERRA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>19-jun</td>
+                <td>1:00 p.m.</td>
+                <td>A</td>
+                <td></td>
+                <td>RUSIA</td>
+                <td>vs</td>
+                <td>EGIPTO</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>19-jun</td>
+                <td>7:00 a.m.</td>
+                <td>H</td>
+                <td></td>
+                <td>COLOMBIA</td>
+                <td>vs</td>
+                <td>JAPÓN</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>19-jun</td>
+                <td>10:00 a.m.</td>
+                <td>H</td>
+                <td></td>
+                <td>POLONIA</td>
+                <td>vs</td>
+                <td>SENEGAL</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>20-jun</td>
+                <td>10:00 a.m.</td>
+                <td>A</td>
+                <td></td>
+                <td>URUGUAY</td>
+                <td>vs</td>
+                <td>A. SAUDITA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>20-jun</td>
+                <td>7:00 a.m.</td>
+                <td>B</td>
+                <td></td>
+                <td>PORTUGAL</td>
+                <td>vs</td>
+                <td>MARRUECOS</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>20-jun</td>
+                <td>1:00 p.m.</td>
+                <td>B</td>
+                <td></td>
+                <td>IRAN</td>
+                <td>vs</td>
+                <td>ESPAÑA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>21-jun</td>
+                <td>7:00 a.m.</td>
+                <td>C</td>
+                <td></td>
+                <td>DINAMARCA</td>
+                <td>vs</td>
+                <td>AUSTRALIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>21-jun</td>
+                <td>10:00 a.m.</td>
+                <td>C</td>
+                <td></td>
+                <td>FRANCIA</td>
+                <td>vs</td>
+                <td>PERÚ</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>21-jun</td>
+                <td>1:00 p.m.</td>
+                <td>D</td>
+                <td></td>
+                <td>ARGENTINA</td>
+                <td>vs</td>
+                <td>CROACIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>22-jun</td>
+                <td>10:00 a.m.</td>
+                <td>D</td>
+                <td></td>
+                <td>NIGERIA</td>
+                <td>vs</td>
+                <td>ISLANDIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>22-jun</td>
+                <td>7:00 a.m.</td>
+                <td>E</td>
+                <td></td>
+                <td>BRASIL</td>
+                <td>vs</td>
+                <td>COSTA RICA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>22-jun</td>
+                <td>1:00 p.m.</td>
+                <td>E</td>
+                <td></td>
+                <td>SERBIA</td>
+                <td>vs</td>
+                <td>SUIZA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>23-jun</td>
+                <td>10:00 a.m.</td>
+                <td>F</td>
+                <td></td>
+                <td>C. DEL SUR</td>
+                <td>vs</td>
+                <td>MEXICO</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>23-jun</td>
+                <td>1:00 p.m.</td>
+                <td>F</td>
+                <td></td>
+                <td>ALEMANIA</td>
+                <td>vs</td>
+                <td>SUECIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>23-jun</td>
+                <td>7:00 a.m.</td>
+                <td>G</td>
+                <td></td>
+                <td>BÉLGICA</td>
+                <td>vs</td>
+                <td>TUNEZ</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>24-jun</td>
+                <td>7:00 a.m.</td>
+                <td>G</td>
+                <td></td>
+                <td>INGLATERRA</td>
+                <td>vs</td>
+                <td>PANAMÁ</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>24-jun</td>
+                <td>10:00 a.m.</td>
+                <td>H</td>
+                <td></td>
+                <td>JAPÓN</td>
+                <td>vs</td>
+                <td>SENEGAL</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>24-jun</td>
+                <td>1:00 p.m.</td>
+                <td>H</td>
+                <td></td>
+                <td>POLONIA</td>
+                <td>vs</td>
+                <td>COLOMBIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>25-jun</td>
+                <td>9:00 a.m.</td>
+                <td>A</td>
+                <td></td>
+                <td>A. SAUDITA</td>
+                <td>vs</td>
+                <td>EGIPTO</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>25-jun</td>
+                <td>09:00 a.m.</td>
+                <td>A</td>
+                <td></td>
+                <td>RUSIA</td>
+                <td>vs</td>
+                <td>URUGUAY</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>25-jun</td>
+                <td>1:00 p.m.</td>
+                <td>B</td>
+                <td></td>
+                <td>ESPAÑA</td>
+                <td>vs</td>
+                <td>MARRUECOS</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>25-jun</td>
+                <td>1:00 p.m.</td>
+                <td>B</td>
+                <td></td>
+                <td>IRAN</td>
+                <td>vs</td>
+                <td>PORTUGAL</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>26-jun</td>
+                <td>9:00 a.m.</td>
+                <td>C</td>
+                <td></td>
+                <td>DINAMARCA</td>
+                <td>vs</td>
+                <td>FRANCIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>26-jun</td>
+                <td>9:00 a.m.</td>
+                <td>C</td>
+                <td></td>
+                <td>AUSTRALIA</td>
+                <td>vs</td>
+                <td>PERÚ</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>26-jun</td>
+                <td>1:00 p.m.</td>
+                <td>D</td>
+                <td></td>
+                <td>ISLANDIA</td>
+                <td>vs</td>
+                <td>CROACIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>26-jun</td>
+                <td>1:00 p.m.</td>
+                <td>D</td>
+                <td></td>
+                <td>NIGERIA</td>
+                <td>vs</td>
+                <td>ARGENTINA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>27-jun</td>
+                <td>1:00 p.m.</td>
+                <td>E</td>
+                <td></td>
+                <td>SERBIA</td>
+                <td>vs</td>
+                <td>BRASIL</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>27-jun</td>
+                <td>1:00 p.m.</td>
+                <td>E</td>
+                <td></td>
+                <td>SUIZA</td>
+                <td>vs</td>
+                <td>COSTA RICA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>27-jun</td>
+                <td>9:00 a.m.</td>
+                <td>F</td>
+                <td></td>
+                <td>MEXICO</td>
+                <td>vs</td>
+                <td>SUECIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>27-jun</td>
+                <td>9:00 a.m.</td>
+                <td>F</td>
+                <td></td>
+                <td>C. DEL SUR</td>
+                <td>vs</td>
+                <td>ALEMANIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>28-jun</td>
+                <td>1:00 p.m.</td>
+                <td>G</td>
+                <td></td>
+                <td>INGLATERRA</td>
+                <td>vs</td>
+                <td>BÉLGICA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>28-jun</td>
+                <td>1:00 p.m.</td>
+                <td>G</td>
+                <td></td>
+                <td>PANAMÁ</td>
+                <td>vs</td>
+                <td>TUNEZ</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>28-jun</td>
+                <td>9:00 a.m.</td>
+                <td>H</td>
+                <td></td>
+                <td>SENEGAL</td>
+                <td>vs</td>
+                <td>COLOMBIA</td>
+                <td></td>
+              </tbody>
+              <tbody>
+                <td>28-jun</td>
+                <td>9:00 a.m.</td>
+                <td>H</td>
+                <td></td>
+                <td>JAPÓN</td>
+                <td>vs</td>
+                <td>POLONIA</td>
+                <td></td>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="clasificacion"></div>
+        </div>
+      </div>
+    </section>
+    <section class="ranking" id="ranking" data-src="images/soccer-ball.jpg">
+      <div class="transparencia">
+        <div class="contenedor">
+          <h2>RANKING</h2>
+          <table>
+            <thead>
+              <th>N°</th>
+              <th>Nombre</th>
+              <th>Puntos</th>
+            </thead>
+            <tbody>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <span>Manuel-Diaz</span>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
+    <script type="text/javascript">
+    var consulta = window.matchMedia("(max-width:500px)");
+   consulta.addListener(mediaQuery);
+   var $burguerButton = document.getElementById('burger-button');
+   var $menu = document.getElementById('menu');
+   var $body = document.body;
+
+   function openMenu(){
+     $menu.classList.add("active");
+     $burguerButton.classList.add("icon-cancel-circle");
+
+   };
+   function closeMenu(){
+     $menu.classList.remove("active");
+     $burguerButton.classList.remove("icon-cancel-circle");
+   };
+   function toggleMenu(){
+     $menu.classList.toggle("active");
+     document.body.classList.toggle('opened');
+     $burguerButton.classList.toggle("icon-cancel-circle");
+   };
+
+
+    function mediaQuery() {
+      if (consulta.matches) {
+        console.log("es verdad");
+        $burguerButton.addEventListener('touchstart', toggleMenu );
+      }
+      else {
+       console.log("es falso");
+       // $burguerButton.removeEventListener('touchstart', toggleMenu );
+      }
+    }
+
+  mediaQuery();
+  var bLazy = new Blazy({
+      selector: "img"
+  });
+
+  var gestos = new Hammer($body);
+  gestos.on('swipeleft', closeMenu);
+  gestos.on('swiperight', openMenu);
+</script>
+
+<script type="text/javascript" async defer>
+	WebFontConfig={google:{families:['Parisienne|Russo+One|Ubuntu:400,400i,500,700']}};
+	(function(){var wf=document.createElement('script');
+	wf.src=('https:'==document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+	wf.type='text/javascript';wf.async='true';
+	var s=document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(wf,s);})();
+</script>
+  </body>
+</html>
