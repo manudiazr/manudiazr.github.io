@@ -8,11 +8,11 @@ $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
 $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
-$mensaje = "Partido Egipto - Uruguay"." \r\n";
+$mensaje = "Partido Marruecos Iran"." \r\n";
 $mensaje = "Nombre= " . $nombre . ",
 Equipo 1 = " . $equipo_1 . " \r\n";
 $mensaje .= "Equipo 2= " . $equipo_2 . " \r\n";
-$mensaje .= "Partido Egipto - Uruguay". " \r\n";
+$mensaje .= "Partido Marruecos - iran". " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
 $para = 'manuddr.1993@gmail.com';
