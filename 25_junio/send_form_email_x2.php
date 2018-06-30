@@ -1,13 +1,13 @@
 <?php
 $nombre = $_POST['nombre'];
-$surcorea = $_POST['surcorea'];
-$mexico = $_POST['mexico'];
-$alemania = $_POST['alemania'];
-$suecia = $_POST['suecia'];
-$belgica = $_POST['belgica'];
-$tunez = $_POST['tunez'];
-// $croacia = $_POST['croacia'];
-// $nigeria = $_POST['nigeria'];
+$asaudita = $_POST['asaudita'];
+$egipto = $_POST['egipto'];
+$rusia = $_POST['rusia'];
+$uruguay = $_POST['uruguay'];
+$españa = $_POST['españa'];
+$marruecos = $_POST['marruecos'];
+$iran = $_POST['iran'];
+$portugal = $_POST['portugal'];
 
 $header = 'From: ' . $nombre . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
@@ -16,14 +16,14 @@ $header .= "Content-Type: text/plain";
 
 $mensaje = "Partido Egipto - Uruguay"." \r\n";
 $mensaje = "Nombre= " . $nombre . " \r\n";
-$mensaje .= "surcorea= " . $surcorea . " \r\n";
-$mensaje .= "mexico= " . $mexico . " \r\n";
-$mensaje .= "alemania= " . $alemania . " \r\n";
-$mensaje .= "suecia= " . $suecia . " \r\n";
-$mensaje .= "belgica= " . $belgica . " \r\n";
-$mensaje .= "tunez= " . $tunez . " \r\n";
-// $mensaje .= "Croacia= " . $croacia . " \r\n";
-// $mensaje .= "Nigeria= " . $nigeria . " \r\n";
+$mensaje .= "asaudita= " . $asaudita . " \r\n";
+$mensaje .= "egipto= " . $egipto . " \r\n";
+$mensaje .= "rusia= " . $rusia . " \r\n";
+$mensaje .= "uruguay= " . $uruguay . " \r\n";
+$mensaje .= "españa= " . $españa . " \r\n";
+$mensaje .= "marruecos= " . $marruecos . " \r\n";
+$mensaje .= "iran= " . $iran . " \r\n";
+$mensaje .= "portugal= " . $portugal . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
 $para = 'manuddr.1993@gmail.com';

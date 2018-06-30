@@ -1,11 +1,11 @@
 <?php
 $nombre = $_POST['nombre'];
-$surcorea = $_POST['surcorea'];
-$mexico = $_POST['mexico'];
-$alemania = $_POST['alemania'];
-$suecia = $_POST['suecia'];
-$belgica = $_POST['belgica'];
-$tunez = $_POST['tunez'];
+$inglaterra = $_POST['inglaterra'];
+$panama = $_POST['panama'];
+$japon = $_POST['japon'];
+$senegal = $_POST['senegal'];
+$polonia = $_POST['polonia'];
+$colombia = $_POST['colombia'];
 // $croacia = $_POST['croacia'];
 // $nigeria = $_POST['nigeria'];
 
@@ -16,12 +16,12 @@ $header .= "Content-Type: text/plain";
 
 $mensaje = "Partido Egipto - Uruguay"." \r\n";
 $mensaje = "Nombre= " . $nombre . " \r\n";
-$mensaje .= "surcorea= " . $surcorea . " \r\n";
-$mensaje .= "mexico= " . $mexico . " \r\n";
-$mensaje .= "alemania= " . $alemania . " \r\n";
-$mensaje .= "suecia= " . $suecia . " \r\n";
-$mensaje .= "belgica= " . $belgica . " \r\n";
-$mensaje .= "tunez= " . $tunez . " \r\n";
+$mensaje .= "inglaterra= " . $inglaterra . " \r\n";
+$mensaje .= "panama= " . $panama . " \r\n";
+$mensaje .= "japon= " . $japon . " \r\n";
+$mensaje .= "senegal= " . $senegal . " \r\n";
+$mensaje .= "polonia= " . $polonia . " \r\n";
+$mensaje .= "colombia= " . $colombia . " \r\n";
 // $mensaje .= "Croacia= " . $croacia . " \r\n";
 // $mensaje .= "Nigeria= " . $nigeria . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
